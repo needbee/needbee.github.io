@@ -1,17 +1,19 @@
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <a class="brand" href="#">{{ site.name }}</a>
-      <div class="nav-collapse collapse">
-        <ul class="nav">
-          <li class="active"><a href="/">Home</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+<div class="contain-to-grid">
+  <nav class="top-bar contain-to-grid" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">{{ site.name }}</a></h1>
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon">
+        <a href="#"><span>Menu</span></a>
+      </li>
+    </ul>
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="active"><a href="/">Home</a></li>
+      </ul>
+    </section>
+  </nav>
 </div>

@@ -1,4 +1,5 @@
-jekyll-tutorial
+need-bee.com
 ===============
 
-Trying out Jekyll with GitHub Pages
+Personal programming blog implemented in Jekyll and hosted on GitHub
+Pages.

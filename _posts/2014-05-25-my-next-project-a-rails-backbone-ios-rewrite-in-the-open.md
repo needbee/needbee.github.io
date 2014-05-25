@@ -1,5 +1,5 @@
 ---
-title: My Next Project: A Rails/Backbone/iOS Rewrite in the Open
+title: My Next Project, A Rails/Backbone/iOS Rewrite in the Open
 layout: post
 ---
 

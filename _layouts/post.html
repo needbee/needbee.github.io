@@ -10,6 +10,11 @@
           <div class="medium-8 columns">
               <h1>{{ page.title }}</h1>
               <p class="muted">{{ page.date | date_to_long_string }}</p>
+              <div>
+                {% for category in page.categories %}
+                  <a href="/{{ category }}/"><span class="label">{{ category | capitalize }}</span></a>
+                {% endfor %}
+              </div>
               {{ content }}
               {% if page.previous.url %}
                 <a href="{{page.previous.url}}" class="button small" title="Previous Post:

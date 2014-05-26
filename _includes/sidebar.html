@@ -6,6 +6,14 @@
 	<li><a href="https://github.com/npmweb">GitHub: Work</a></li>
 </ul>
 
+<h3>Categories</h3>
+
+<ul>
+  {% for category in site.categories %}
+  	<li><a href="/{{ category | first }}/">{{ category | first | capitalize }}</a></li>
+  {% endfor %}
+</ul>
+
 <h3>Recent Posts</h3>
 
 <ul>

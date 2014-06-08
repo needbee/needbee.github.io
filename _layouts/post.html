@@ -12,7 +12,7 @@
           <p class="muted">{{ page.date | date_to_long_string }}</p>
           <div>
             {% for category in page.categories %}
-              <a href="/{{ category }}/"><span class="label">{{ category | capitalize }}</span></a>
+              <a href="/{{ category }}/"><span class="label">{{ site.data.categories[category].name }}</span></a>
             {% endfor %}
           </div>
           {{ content }}

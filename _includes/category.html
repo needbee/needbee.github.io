@@ -1,4 +1,6 @@
-<h1>{{ include.category | capitalize }}</h1>
+<h1>{{ site.data.categories[include.category].name }}</h1>
+
+<p>{{ site.data.categories[include.category].description }}</p>
 
 {% for post in site.categories[include.category] limit:5 %}
   {% include post_summary.html post=post %}

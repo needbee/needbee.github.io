@@ -9,8 +9,9 @@
 <h3>Categories</h3>
 
 <ul>
-  {% for category in site.categories %}
-  	<li><a href="/{{ category | first }}/">{{ category | first | capitalize }}</a></li>
+  {% for categoryEntry in site.categories %}
+    {% assign category = categoryEntry | first %}
+  	<li><a href="/{{ category }}/">{{ site.data.categories[category].name }}</a></li>
   {% endfor %}
 </ul>
 

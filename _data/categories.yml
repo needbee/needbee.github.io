@@ -1,0 +1,11 @@
+projects:
+  name: Projects
+  description: "About projects I'm working on."
+
+software-engineering:
+  name: Software Engineering
+  description: "About the broader scope of working in the software engineering field."
+
+tools:
+  name: Tools
+  description: "About specific languages, frameworks, and development applications."

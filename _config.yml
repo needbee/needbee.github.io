@@ -11,3 +11,5 @@ highlighter: pygments
 
 sass:
   style: compressed
+
+exclude: ["bower_components","node_modules","scss","README.md","*.json","Gruntfile.js"]

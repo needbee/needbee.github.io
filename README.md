@@ -12,3 +12,9 @@ GitHub Pages won't build the SASS, so we need to do that on the client-side and 
 - npm install
 - bower install
 - grunt build
+
+Running the Server
+==================
+
+- jekyll serve --watch
+- grunt watch

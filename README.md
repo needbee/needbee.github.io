@@ -10,4 +10,5 @@ Building
 GitHub Pages won't build the SASS, so we need to do that on the client-side and commit it.
 
 - npm install
+- bower install
 - grunt build

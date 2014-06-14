@@ -1,5 +1,5 @@
 {
-  "name": "foundation-libsass-template",
+  "name": "needbee",
   "dependencies": {
     "foundation": "zurb/bower-foundation"
   }

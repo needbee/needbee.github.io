@@ -1,6 +1,7 @@
 {
   "name": "needbee",
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "requirejs": "jrburke/requirejs-bower"
   }
 }

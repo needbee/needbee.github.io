@@ -21,6 +21,7 @@ module.exports = function(grunt) {
         options: {
           mainConfigFile: 'js/main.js',
           name: '../js/main',
+          include: 'requireLib',
           out: 'js/main-built.js'
         }
       }

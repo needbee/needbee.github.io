@@ -1,0 +1,13 @@
+div.contain-to-grid,
+nav.top-bar {
+  background: #27736e;
+}
+
+div.dark-area {
+  background: #dddddd;
+}
+
+div.light-area,
+div.panel {
+  background: #f8f8f8;
+}

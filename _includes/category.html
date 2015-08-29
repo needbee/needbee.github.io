@@ -1,7 +1,0 @@
-<h1>Posts in {{ site.data.categories[include.category].name }}</h1>
-
-<p>{{ site.data.categories[include.category].description }}</p>
-
-{% for post in site.categories[include.category] limit:5 %}
-  {% include post_summary.html post=post %}
-{% endfor %}

@@ -1,40 +1,86 @@
----
-layout: default
----
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>NeedBee</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% for post in paginator.posts %}
-  {% include post_summary.html post=post %}
-{% endfor %}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-{% if paginator.total_pages != 1 %}
-  <div>
-    <ul class="pagination">
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <li class="arrow"><a href="/">&laquo;</a></li>
-        {% else %}
-        <li class="arrow"><a href="/page{{ paginator.previous_page }}">&laquo;</a></li>
-        {% endif %}
-      {% else %}
-      <li class="arrow disabled">&laquo;</li>
-      {% endif %}
-      {% if paginator.page == 1 %}
-      <li class="current"><a href="/">1</a></li>
-      {% else %}
-      <li><a href="/">1</a></li>
-      {% endif %}
-      {% for count in (2..paginator.total_pages) %}
-        {% if count == paginator.page %}
-        <li class="current"><a href="/page{{ count }}">{{ count }}</a></li>
-        {% else %}
-        <li><a href="/page{{ count }}">{{ count }}</a></li>
-        {% endif %}
-      {% endfor %}
-      {% if paginator.next_page %}
-      <li class="arrow"><a href="/page{{ paginator.next_page }}">&raquo;</a></li>
-      {% else %}
-      <li class="arrow disabled">&raquo;</li>
-      {% endif %}
-    </ul>
-  </div>
-{% endif %}
+        <p>
+        Did you know what you wanted to be when you grew up? Ever since Melissa Joan Hart made video games about her annoying little brother on Clarissa Explains It All, I knew I wanted to be a software developer. I'm so excited to get the chance to do that all week. Software development, not making games about Melissa Joan Hart's brother.
+        </p>
+
+        <p>
+        I've been writing software full-time for eleven years, working in technologies ranging from Java to PHP to Ruby to Objective-C. I've built many small and large web applications, including e-commerce systems, wikis, and intelligent search algorithms.
+        </p>
+
+        <p>
+        I try to always be learning more about best practices and time-proven techniques. In addition to my computer science degree, I like to read great books on software engineering both classics and modern, like Professional Software Development, The Pragmatic Programmer, and Code Complete. I enjoy attending conferences and reading blog posts on development.
+        </p>
+
+        <p>
+        My passions are:
+        </p>
+
+        <dl>
+          <dt>Engineering</dt>
+          <dd>Taking the craft of writing software seriously by applying principles that have been discovered over the decades, focusing on meeting needs, and writing code that will flex under the changes that come over time.</dd>
+
+          <dt>Visibility</dt>
+          <dd>Helping all team members (developers, project managers, and clients) see at all times how a project is intended to proceed, how it's actually proceeding, and what can be done to adjust to meet client goals.</dd>
+
+          <dt>Tooling</dt>
+          <dd>Finding or creating solutions to boilerplate problems so teams can focus on solving the problems that add value for their clients, instead of reinventing the wheel.</dd>
+
+          <dt>Sharing</dt>
+          <dd>Writing reusable code, externalizing it in packages, and open-sourcing it whenever possible.</dd>
+
+          <dt>Training</dt>
+          <dd>Helping development teams better learn their craft, and helping them decide together how they want to operate as a team to increase effectiveness.</dd>
+        </dl>
+
+        <p>
+        My clients consistently say that I analyze needs precisely, I communicate technical concepts in language non-technical people can understand, I write reliable software, I keep them well-informed of progress, and I deliver on time.
+        </p>
+
+        <p>
+        Some of the projects I've worked on include:
+        </p>
+
+        <dl>
+          <dt><a href="http://northpointonline.tv">North Point Online</a></dt>
+          <dd>The video streaming platform for the largest church in America.</dd>
+
+          <dt><a href="http://howtoberich.org">HowToBeRich.org</a></dt>
+          <dd>A charitable giving and serving campaign that raised over $4 million last year.</dd>
+
+          <dt><a href="https://www.purchasingpower.com">PurchasingPower.com</a></dt>
+          <dd>An ecommerce site that allows people to make purchases through payroll deduction instead of going into credit card debt.</dd>
+
+          <dt><a href="https://scriptive.org">Scriptive.org</a></dt>
+          <dd>A web app and iPhone app for personalized Bible verse recommendations.</dd>
+
+          <dt><a href="https://typelink.net">TypeLink</a></dt>
+          <dd>A personal wiki notepad web app and iOS app.</dd>
+
+          <dt><a href="https://github.com/npmweb/community-service">Community Service</a></dt>
+          <dd>An open-source system for registering people for volunteering opportunities.</dd>
+        </dl>
+
+        <p>
+        You can see a number of open-source projects I've created at <a href="https://github.com/needbee?tab=repositories">my personal GitHub account</a> and at <a href="https://github.com/npmweb">the team account for NPM Digital</a>.
+        </p>
+
+        <p>
+        I tweet sarcastically about development practices at <a href="https://twitter.com/CodingItWrong">@CodingItWrong</a>. You can also reach me at josh at need-bee dat cam.
+        </p>
+    </body>
+</html>

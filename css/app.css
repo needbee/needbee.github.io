@@ -1,3 +1,12 @@
+div.hero {
+  background: #27736e;
+  padding: 30px 0;
+}
+
+div.hero h1 {
+  color: white;
+}
+
 div.contain-to-grid,
 nav.top-bar {
   background: #27736e;
@@ -9,7 +18,7 @@ div.dark-area {
 
 div.light-area,
 div.panel {
-  background: #f8f8f8;
+  background: #f0f0f0;
 }
 
 div.panel {

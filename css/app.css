@@ -11,3 +11,7 @@ div.light-area,
 div.panel {
   background: #f8f8f8;
 }
+
+div.panel {
+  border: solid 1px #bbb;
+}

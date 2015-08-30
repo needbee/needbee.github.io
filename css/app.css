@@ -21,6 +21,7 @@ div.panel {
   background: #f0f0f0;
 }
 
-div.panel {
+div.panel,
+img.thumbnail {
   border: solid 1px #bbb;
 }
